@@ -1,5 +1,6 @@
 import menu from './menu.json';
 import markup from './markup.hbs';
+import './sass/main.scss';
 
 const jsMenu = document.querySelector('.js-menu');
 jsMenu.innerHTML = markup(menu)
